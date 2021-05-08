@@ -9,6 +9,8 @@ Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 """
 
 import os
+# For control what GPU to use
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import argparse
 
 from munch import Munch
